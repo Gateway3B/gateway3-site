@@ -1,5 +1,5 @@
 {
-  "name": "@example/blog",
+  "name": "gateway3-site",
   "type": "module",
   "version": "0.0.1",
   "private": true,
@@ -10,7 +10,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "dockerbuild": "docker build -f dockerfile -t ghcr.io/gateway3b/g3tech:latest .",
+    "dockerbuild": "docker build -f dockerfile -t ghcr.io/gateway3b/gateway3-site:latest .",
     "deploy": ".\\deploy\\deploy.bat"
   },
   "dependencies": {

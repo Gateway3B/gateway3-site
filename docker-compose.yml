@@ -2,9 +2,9 @@ version: '3'
 
 services:
     web:
-        image: ghcr.io/gateway3b/g3tech:latest
+        image: ghcr.io/gateway3b/gateway3-site:latest
         pull_policy: always
-        container_name: g3tech
+        container_name: gateway3-site
         environment:
             - YOUTUBE_API_KEY=${YOUTUBE_API_KEY}
             - THINGIVERSE_API_TOKEN=${THINGIVERSE_API_TOKEN}
